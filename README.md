@@ -1,6 +1,6 @@
 # Literate Hydra
 
-[Try the project on glitch.com]()
+[Try the project on glitch.com](https://glitch.com/~literate-hydra)
 
 Literate Hydra is an environment for writing and annotating [Hydra](https://github.com/ojack/hydra) code. 
 
@@ -8,6 +8,6 @@ The string inside content.js will be rendered as markdown on the page. You can w
 
 You can organize your document into sections using `<h-section title="title></h-section>` tags. Sections can have a title and can be collapsed to save space.
 
-This works really well when edited with [glitch.com]() as you can edit / view the document at the same time all in one browser window.
+This works really well when edited with [glitch.com](https://glitch.com/~literate-hydra) as you can edit / view the document at the same time all in one browser window.
 
 To get started you either clone the git repository and run `npm install` then `npm start` or clone the demo I have linked to above on glitch.com and click view project.
