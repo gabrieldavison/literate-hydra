@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+}
+
+#hydra-canvas {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -5;
+}
+
+#content {
+  width: auto;
+  max-width: 750px;
+  color: white;
+  background: rgba(0, 0, 0, 0.8)
+}
+
+.hidden {
+  display: none;
+}
+
+#content {
+  padding: 1rem;
+}
+
+.h-section {
+  &__title {
+    margin-top: 1rem;
+  }
+  &__button {
+    display: block;
+    margin: 1rem 0;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+  }
+}
+.h-code {
+  &__textarea {
+    min-width: 300px;
+    min-height: 100px;
+  }
+  &__button {
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    margin: 0.5rem 0.5rem 0.5rem 0
+  }
+}

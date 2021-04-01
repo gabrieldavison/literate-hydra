@@ -1,0 +1,19 @@
+{
+  "name": "literate-hydra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "htm": "^3.0.4",
+    "marked": "^2.0.1",
+    "preact": "^10.5.13",
+    "preact-custom-element": "^4.2.1",
+    "snowpack": "^3.1.2"
+  }
+}
