@@ -2,6 +2,10 @@ body {
   font-family: sans-serif;
 }
 
+body a {
+  color: white;
+}
+
 #hydra-canvas {
   width: 100vw;
   height: 100vh;
@@ -20,6 +24,18 @@ body {
 
 .hidden {
   display: none;
+}
+
+#visibility-toggle {
+  position: absolute;
+  top:0;
+  right: 0;
+  display: inline-block;
+  color: white;
+  background-color: black;
+  padding: 0.2em;
+  border: 1px solid white;
+  margin: 0.5em;
 }
 
 #content {

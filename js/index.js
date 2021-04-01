@@ -2,7 +2,6 @@ import marked from 'marked';
 import { h, render } from 'preact'
 import htm from 'htm'
 import content from '../content.js'
-import register from 'preact-custom-element';
 import hydraCode from './h-code.js'
 import hydraSection from './h-section.js'
 
@@ -40,9 +39,6 @@ class hCode extends HTMLElement {
 }
 customElements.define('h-code', hCode);
 
-// register(hydraCode, 'h-code', [])
-// register(hydraSection, 'h-section', [])
-
 //renders MD
 document.getElementById('content').innerHTML = marked(content)
 
@@ -52,4 +48,7 @@ window.addEventListener('keydown', (e) => {
   if (e.key === "Escape") {
     contentContainer.classList.toggle('hidden')
   }
+})
+document.getElementById('visibility-toggle').addEventListener('click', () => {
+  contentContainer.classList.toggle('hidden')
 })
